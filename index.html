@@ -77,7 +77,7 @@
     h3{font-size:20px;margin:18px 0 8px 0}
     .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
     .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
-    .procedure-image{width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+    .procedure-image{width:100%;max-width:560px;height:auto;display:block;margin:12px auto;border-radius:10px;border:1px solid var(--line)}
     .index-list a{display:block;padding:8px 12px;border:1px dashed var(--line);border-radius:10px;margin-bottom:10px;background:#fff}
     .muted{color:var(--ink-2)}
     .contact{display:grid;grid-template-columns:1fr;gap:18px}
@@ -218,7 +218,7 @@
   </section>
 
   <section id="cadera-primaria">
-    <div class="wrap">
+    <div class="wrap grid-2">
       <div class="card">
         <h2>Prótesis de cadera primaria</h2>
         <p>La <strong>prótesis total de cadera</strong> reemplaza superficies articulares dañadas por artrosis, necrosis, fracturas o secuelas de displasia. Objetivo: <strong>aliviar dolor</strong>, mejorar movilidad y recuperar funciones de la vida diaria.</p>
@@ -241,11 +241,15 @@
           <li>Durabilidad frecuente de 15–20 años o más con seguimiento adecuado.</li>
         </ul>
       </div>
+      <div class="card">
+        <img class="procedure-image" src="protesis-primaria.jpg" width="874" height="1313" loading="lazy"
+             alt="Radiografía AP de control de una prótesis total de cadera operada por el Dr. Nicolás Urueta">
+      </div>
     </div>
   </section>
 
   <section id="cadera-revision">
-    <div class="wrap">
+    <div class="wrap grid-2">
       <div class="card">
         <h2>Prótesis de cadera de revisión</h2>
         <p>Procedimiento para recambiar parcial o totalmente una prótesis previa. Suele ser más complejo por pérdida ósea, cicatriz y posible inestabilidad.</p>
@@ -268,6 +272,10 @@
           <li>Disminuir dolor y mejorar función.</li>
           <li>Aumentar durabilidad del nuevo implante.</li>
         </ul>
+      </div>
+      <div class="card">
+        <img class="procedure-image" src="protesis-revision.jpg" width="1200" height="998" loading="lazy"
+             alt="Radiografías de control de una prótesis de cadera de revisión operada por el Dr. Nicolás Urueta">
       </div>
     </div>
   </section>
@@ -292,7 +300,7 @@
         <div class="card" id="artroscopia-cadera">
           <h3>Artroscopia de cadera</h3>
           <p>Cirugía mínimamente invasiva que utiliza 2 a 4 portales pequeños para introducir cámara e instrumentos. Permite osteoplastia en pinzamiento (CAM/PINCER), reparación o reconstrucción del labrum y tratamiento de cartílago. Busca preservar la articulación y, en deportistas, facilita el retorno al nivel previo.</p>
-          <h4>Indicaciones</h4>
+  <h4>Indicaciones</h4>
           <ul>
             <li>Pinzamiento femoroacetabular tipo CAM, PINCER o mixto.</li>
             <li>Lesiones del labrum y cartílago; cuerpos libres.</li>
@@ -303,12 +311,17 @@
             <li>Portales anterolateral y accesorios para cámara e instrumental.</li>
             <li>Procedimiento guiado por imagen para precisión milimétrica.</li>
           </ul>
+          <img class="procedure-image" src="artroscopia-cadera.jpg" width="1200" height="900" loading="lazy"
+               alt="El Dr. Nicolás Urueta y su equipo durante una artroscopia de cadera en quirófano">
         </div>
       </div>
     </div>
     <div class="card" id="osteotomia-periacetabular">
   <h3>Osteotomía periacetabular</h3>
   <p>La <strong>osteotomía periacetabular</strong> es un procedimiento de preservación de cadera indicado principalmente en pacientes jóvenes con displasia acetabular sintomática. Consiste en realizar cortes controlados alrededor del acetábulo para reorientarlo y mejorar la cobertura de la cabeza femoral.</p>
+
+  <img class="procedure-image" src="osteotomia-periacetabular.jpg" width="1200" height="944" loading="lazy"
+       alt="Control con fluoroscopia durante una osteotomía periacetabular realizada por el Dr. Nicolás Urueta">
 
   <h4>Indicaciones</h4>
   <ul>
