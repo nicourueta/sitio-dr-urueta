@@ -32,66 +32,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --brand:#F6C21A;
-      --ink:#2A2A2A;
-      --ink-2:#4B4B4B;
-      --bg:#FAFAFA;
-      --card:#FFFFFF;
-      --line:#EAEAEA;
-      --accent:#0B5ED7;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header.nav{position:sticky;top:0;z-index:50;background:#fffccf;border-bottom:1px solid var(--line);}
-    .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
-    .brand{display:flex;align-items:center;gap:12px}
-    .dot{width:14px;height:14px;border-radius:50%;background:var(--brand);border:2px solid var(--ink)}
-    .brand .brandname{font-size:16px;margin:0;font-weight:800;color:var(--ink)}
-    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;font-weight:600}
-
-    .hero{padding:56px 0;background:linear-gradient(180deg,#fffef3,#ffffff)}
-    .hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center}
-    .hero h1{font-size:34px;line-height:1.15;margin:0 0 10px 0;font-weight:800}
-    .cta-row{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 14px}
-    .btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;border:2px solid transparent}
-    .btn:hover{text-decoration:none}
-    .btn-primary{background:var(--brand);color:#1A1409;border-color:var(--brand)}
-    .btn-primary:hover{background:#ffd449}
-    .btn-ghost{color:var(--ink);border-color:var(--line)}
-    .btn-ghost:hover{border-color:var(--brand)}
-    .trust{font-size:14px;color:var(--ink-2);margin:0;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-    .trust .stars{color:#E0A82E;letter-spacing:1px}
-    .trust .sep{color:#bbb}
-    .hero p.lead{font-size:18px;color:var(--ink-2);margin:0 0 16px 0}
-    .chip{display:inline-block;background:var(--brand);color:#111;padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px;border:1px solid #00000020}
-    .hero-card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-    .hero-card img{width:100%;display:block;object-fit:cover;height:100%}
-
-    section{padding:36px 0;border-top:1px solid var(--line)}
-    h2{font-size:26px;margin:0 0 14px 0}
-    h3{font-size:20px;margin:18px 0 8px 0}
-    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
-    .procedure-image{width:100%;max-width:560px;height:auto;display:block;margin:12px auto;border-radius:10px;border:1px solid var(--line)}
-    .index-list a{display:block;padding:8px 12px;border:1px dashed var(--line);border-radius:10px;margin-bottom:10px;background:#fff}
-    .muted{color:var(--ink-2)}
-    .contact{display:grid;grid-template-columns:1fr;gap:18px}
-    .badge{display:inline-block;font-size:12px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:#fff}
-    footer{padding:36px 0;color:var(--ink-2)}
-    .whatsapp-float{position:fixed;width:60px;height:60px;right:18px;bottom:18px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.18);z-index:9999}
-    .whatsapp-float img{width:34px;height:34px}
-    .whatsapp-float:hover{filter:brightness(1.05)}
-    table.hours{width:100%;border-collapse:collapse;font-size:15px;margin:8px 0 12px}
-    table.hours td{padding:8px 0;border-bottom:1px solid var(--line)}
-    table.hours tr:last-child td{border-bottom:none}
-    table.hours td:last-child{text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
-    @media (max-width:900px){.hero-grid{grid-template-columns:1fr} .grid-2{grid-template-columns:1fr} .contact{grid-template-columns:1fr}}
-  </style>
+  <link rel="stylesheet" href="/estilos.css">
 
   <script type="application/ld+json">
   {
@@ -165,8 +106,8 @@
         <ul>
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#procedimientos">Procedimientos</a></li>
-          <li><a href="#especiales">Especiales</a></li>
-          <li><a href="#publicaciones">Publicaciones</a></li>
+          <li><a href="/dr-nicolas-urueta">Perfil</a></li>
+          <li><a href="/preguntas-frecuentes">Preguntas</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -199,20 +140,14 @@
   <section id="procedimientos">
     <div class="wrap">
       <h2>Procedimientos</h2>
-      <div class="grid-2">
-        <div class="card">
-          <h3>Índice</h3>
-          <div class="index-list">
-            <a href="#cadera-primaria">Prótesis de cadera primaria</a>
-            <a href="#cadera-revision">Prótesis de cadera de revisión</a>
-            <a href="#hip-resurfacing">Hip Resurfacing</a>
-            <a href="#artroscopia-cadera">Artroscopia de cadera</a>
-            <a href="#osteotomia-periacetabular">Osteotomía periacetabular</a>
-          </div>
-        </div>
-        <div class="card">
-          <p class="muted">Da clic en cada procedimiento para ir directo a su descripción.</p>
-        </div>
+      <p class="muted" style="margin:0 0 18px;max-width:66ch">Cada procedimiento tiene su propia página, con indicaciones, cómo se estudia, cómo es la cirugía, la recuperación y los riesgos.</p>
+      <div class="related">
+        <a href="/osteotomia-periacetabular"><b>Osteotomía periacetabular</b><span>Displasia acetabular sintomática en el adulto joven. Preservar antes de la prótesis.</span></a>
+        <a href="/artroscopia-de-cadera"><b>Artroscopia de cadera</b><span>Pinzamiento femoroacetabular, labrum, cartílago y microinestabilidad.</span></a>
+        <a href="/protesis-de-cadera"><b>Prótesis de cadera</b><span>Artroplastia total en artrosis, necrosis, fractura o secuelas de displasia.</span></a>
+        <a href="/revision-de-protesis"><b>Revisión de prótesis</b><span>Aflojamiento, desgaste, luxación, fractura periprotésica e infección.</span></a>
+        <a href="/hip-resurfacing"><b>Hip resurfacing</b><span>Resuperficialización que conserva hueso, en pacientes jóvenes activos.</span></a>
+        <a href="/preguntas-frecuentes"><b>Preguntas frecuentes</b><span>Qué llevar a consulta, costos, aseguradoras, incapacidad y controles.</span></a>
       </div>
     </div>
   </section>
@@ -386,7 +321,7 @@
             <tr><td>Sábado y domingo</td><td>Cerrado</td></tr>
           </table>
           <p><strong>WhatsApp:</strong> lunes a sábado, 8:00 – 20:00 hrs.</p>
-          <p class="muted">Las cirugías se realizan en Christus Muguerza Del Parque, Christus Muguerza Hospital Juventud, Sanatorio Moderno y Clínica del Centro.</p>
+          <p class="muted">Las cirugías se realizan en Christus Muguerza, Starmédica, Hospital Ángeles y otros hospitales de la ciudad, según el caso y la cobertura del paciente.</p>
         </div>
       </div>
     </div>
