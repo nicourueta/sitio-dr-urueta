@@ -504,6 +504,8 @@ PAGINAS = [
     <div><b>2023 — 2025</b><span>Alta Especialidad en Cirugía Articular. Hospital Star Médica Chihuahua, avalada por la Universidad Autónoma de Chihuahua</span></div>
     <div><b>2024</b><span>Fellowship en tratamiento de la cadera: preservación, artroplastia primaria y de revisión. ICATME, Instituto Universitario Quirón Dexeus, Barcelona, España</span></div>
     <div><b>2024</b><span>Certificación como Experto en Ecografía Musculoesquelética. Editorial Médica Panamericana, Madrid, España</span></div>
+    <div><b>En curso</b><span>Diplomatura en Artroplastia de Cadera. Pontificia Universidad Católica Argentina</span></div>
+    <div><b>En curso</b><span>Diplomatura Básica de Infecciones Periprotésicas. Facultad de Ciencias Médicas, Pontificia Universidad Católica Argentina</span></div>
   </div>
 
   <h2>Publicaciones</h2>
