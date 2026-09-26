@@ -24,7 +24,7 @@ PAGINAS = [
    ("Para quién", "Adulto joven con displasia acetabular sintomática y cartílago conservado"),
    ("Objetivo", "Preservar la articulación propia"),
    ("Anestesia", "Regional o general"),
-   ("Hospitalización", "Habitualmente 2 a 4 días"),
+   ("Hospitalización", "Habitualmente dos noches"),
    ("Muletas", "Varias semanas, con descarga parcial"),
    ("Alternativa si no aplica", "Artroscopia, o prótesis si ya hay artrosis"),
  ],
@@ -86,7 +86,7 @@ PAGINAS = [
   <h2>Recuperación</h2>
   <p>Es una recuperación estructurada y conviene conocerla antes de decidir:</p>
   <ul>
-    <li><strong>Hospitalización</strong> habitual de dos a cuatro días, con manejo del dolor y prevención de trombosis.</li>
+    <li><strong>Hospitalización</strong> habitual de dos noches, con manejo del dolor y prevención de trombosis.</li>
     <li><strong>Muletas con descarga parcial</strong> durante varias semanas, mientras el hueso consolida.</li>
     <li><strong>Rehabilitación progresiva</strong>, primero para recuperar movilidad y después fuerza.</li>
     <li><strong>Controles radiográficos</strong> periódicos hasta confirmar la consolidación.</li>
@@ -120,7 +120,7 @@ PAGINAS = [
    ("Para quién", "Pinzamiento femoroacetabular, lesión de labrum, microinestabilidad"),
    ("Invasión", "2 a 4 portales de pocos milímetros"),
    ("Anestesia", "Regional o general"),
-   ("Hospitalización", "Habitualmente ambulatoria o una noche"),
+   ("Hospitalización", "Habitualmente una noche"),
    ("Muletas", "Pocos días, según el procedimiento"),
    ("Retorno al deporte", "Progresivo, en meses"),
  ],
@@ -171,7 +171,7 @@ PAGINAS = [
 
   <h2>Recuperación por fases</h2>
   <ul>
-    <li><strong>Primeros días:</strong> muletas y control del dolor y de la inflamación. La mayoría de los casos son ambulatorios o de una noche.</li>
+    <li><strong>Primeros días:</strong> muletas y control del dolor y de la inflamación. Habitualmente es una noche de hospital.</li>
     <li><strong>Primeras semanas:</strong> recuperar movilidad sin forzar, y activar la musculatura sin cargar la reparación.</li>
     <li><strong>Fase intermedia:</strong> fuerza progresiva y control del tronco y de la pelvis.</li>
     <li><strong>Fase final:</strong> gesto deportivo, cambios de dirección e impacto, según criterios de fuerza y control.</li>
@@ -204,6 +204,7 @@ PAGINAS = [
    ("Para quién", "Artrosis, necrosis avascular, fractura, secuelas de displasia"),
    ("Objetivo", "Quitar el dolor y recuperar función"),
    ("Anestesia", "Habitualmente regional"),
+   ("Hospitalización", "Habitualmente una noche"),
    ("Caminar", "Deambulación temprana asistida"),
    ("Durabilidad", "Frecuentemente 15 a 20 años o más"),
    ("Control", "Clínico y radiográfico periódico de por vida"),
@@ -597,6 +598,81 @@ PAGINAS = [
     <p><strong>Nada de lo que leas aquí sustituye una consulta.</strong> La información de este sitio es orientativa y sirve para que llegues con mejores preguntas, no para autodiagnosticarte ni para decidir una cirugía a distancia.</p>
   </div>
  """,
+},
+
+
+# ─────────────────────────────────────────────────────── FORÁNEOS / JUÁREZ
+{
+ "slug": "ciudad-juarez-y-foraneos",
+ "nav": "Pacientes de Ciudad Juárez y otras ciudades",
+ "es_procedimiento": False,
+ "resumen_corto": "Primera opinión a distancia, consulta en Juárez y regreso a casa el día del alta.",
+ "title": "Cirugía de cadera para pacientes de Ciudad Juárez y otras ciudades | Dr. Nicolás Urueta",
+ "desc": "¿Vives en Ciudad Juárez, Delicias, Cuauhtémoc, Parral u otra ciudad? Envía tus radiografías para una primera opinión, consulta en Juárez, videoconsulta y regreso a casa el día del alta. Cirugía de cadera en Chihuahua.",
+ "chip": "Pacientes foráneos",
+ "h1": "Cirugía de cadera para pacientes de Ciudad Juárez y otras ciudades",
+ "lead": "No tienes que viajar a Chihuahua solo para saber si tu cadera necesita cirugía. Empezamos con tus radiografías por WhatsApp, y solo viajas cuando ya hay un plan.",
+ "wa": "https://wa.me/526142157019?text=Hola%2C%20vivo%20fuera%20de%20Chihuahua%20y%20me%20gustar%C3%ADa%20enviar%20mis%20radiograf%C3%ADas%20para%20una%20primera%20opini%C3%B3n",
+ "cta_texto": "Enviar mis radiografías por WhatsApp",
+ "resumen": [
+   ("Paso 1", "Envía tus radiografías por WhatsApp — primera opinión sin costo"),
+   ("Paso 2", "Videoconsulta o consulta presencial en Ciudad Juárez"),
+   ("Paso 3", "Cirugía en Chihuahua, con fecha y estancia planeadas"),
+   ("Después", "Seguimiento mensual en Ciudad Juárez y por videollamada"),
+ ],
+ "faq": [
+   ("¿La primera opinión por WhatsApp tiene costo?",
+    ["No. Revisamos tus radiografías y te decimos si lo que vemos amerita una valoración completa, y de qué tipo. Es una orientación, no un diagnóstico: el diagnóstico y la indicación de cirugía se hacen con historia clínica y exploración física."]),
+   ("¿Qué radiografías sirven?",
+    ["Una radiografía de pelvis de frente (AP de pelvis) y una lateral de la cadera que duele son el punto de partida. Si ya tienes resonancia o tomografía, mándala también. Lo ideal es la imagen del estudio, no una foto del informe escrito; una foto de la placa contra una ventana o de la pantalla del hospital funciona si se ve completa y nítida."]),
+   ("¿Hay consulta en Ciudad Juárez?",
+    ["Sí. Una vez al mes damos seguimiento presencial en Ciudad Juárez a los pacientes operados, y cuando hay pacientes de la zona organizamos también consultas de valoración y preoperatorias. Escríbenos por WhatsApp y te avisamos la siguiente fecha."]),
+   ("¿Tengo que regresar a Chihuahua para cada control?",
+    ["No necesariamente. Muchos controles después de la cirugía se pueden hacer por videollamada con radiografías tomadas en tu ciudad, y lo que requiera revisión física se ve en el seguimiento mensual en Ciudad Juárez o en Chihuahua, según convenga."]),
+   ("¿Necesito ambulancia para regresar a mi ciudad?",
+    ["No. Es una duda muy común, pero el regreso se hace en carro particular, con un acompañante. Usamos analgesia regional especializada pensada para que el viaje sea cómodo."]),
+   ("¿Aceptan mi seguro de gastos médicos mayores?",
+    ["Trabajamos con todas las aseguradoras. Si tienes póliza, mándanos los datos junto con tus radiografías y revisamos contigo el trámite de autorización antes de fijar la fecha."]),
+ ],
+ "cuerpo": """
+  <h2>Cómo funciona</h2>
+  <ol>
+    <li><strong>Envía tus radiografías por WhatsApp.</strong> Una radiografía de pelvis de frente y una lateral de la cadera que duele, y en pocas líneas qué te pasa y desde cuándo. El Dr. las revisa y te da una primera opinión sin costo.</li>
+    <li><strong>Valoración completa.</strong> Si hace falta, tienes dos opciones sin venir a Chihuahua: una <strong>videoconsulta</strong> o una <strong>consulta presencial en Ciudad Juárez</strong>. Ahí se define si la cirugía está indicada, cuál, y qué estudios faltan.</li>
+    <li><strong>Cirugía en Chihuahua.</strong> Si decides operarte, la fecha, el hospital, los estudios previos y tu estancia se planean con anticipación, para que el viaje sea uno solo y bien aprovechado.</li>
+    <li><strong>Seguimiento a distancia.</strong> Después de la cirugía, los controles se hacen en lo posible por videollamada con radiografías tomadas en tu ciudad.</li>
+  </ol>
+
+  <div class="callout">
+    <p><strong>Una radiografía no sustituye la consulta.</strong> La primera opinión por WhatsApp sirve para saber si vale la pena una valoración completa y de qué tipo. La indicación de una cirugía siempre se hace con tu historia, la exploración física y los estudios completos.</p>
+  </div>
+
+  <h2>Consulta en Ciudad Juárez</h2>
+  <p>Una vez al mes el Dr. Urueta da <strong>seguimiento presencial en Ciudad Juárez</strong> a sus pacientes operados. Cuando hay pacientes de la zona, organizamos también <strong>consultas de valoración y preoperatorias</strong> en esas mismas fechas, para que no tengas que viajar a Chihuahua antes de la cirugía. Escríbenos por WhatsApp y te avisamos la siguiente fecha.</p>
+
+  <h2>Si te vas a operar: planea tu estancia en Chihuahua</h2>
+  <p>La estancia es más corta de lo que la mayoría imagina. Habitualmente:</p>
+  <ul>
+    <li><strong>Prótesis de cadera:</strong> una noche de hospital.</li>
+    <li><strong>Artroscopia de cadera:</strong> una noche de hospital.</li>
+    <li><strong>Osteotomía periacetabular:</strong> dos noches de hospital.</li>
+  </ul>
+  <p><strong>Puedes regresar a tu ciudad el mismo día que sales del hospital.</strong> Manejamos analgesia regional especializada pensada para que el viaje de regreso sea cómodo. No necesitas ambulancia: el regreso se hace en carro particular, con un acompañante.</p>
+  <p>Algunas recomendaciones para el viaje:</p>
+  <ul>
+    <li><strong>Llega un día antes</strong> si te piden estudios o valoración preanestésica previos.</li>
+    <li><strong>Viaja acompañado.</strong> Los primeros días después de la cirugía vas a necesitar ayuda para moverte, bañarte y subir al carro.</li>
+    <li><strong>Hospedaje cerca.</strong> El consultorio está junto a Christus Muguerza Del Parque, en el centro de la ciudad. Hay hoteles a distancia corta; por WhatsApp te pasamos opciones.</li>
+    <li><strong>El regreso:</strong> en carro, con el asiento reclinado y parando cada hora a caminar unos minutos.</li>
+  </ul>
+
+  <h2>Seguimiento sin viajar de más</h2>
+  <p>Después de la cirugía, los controles se programan en lo posible por <strong>videollamada</strong>. Te indicamos qué radiografías tomarte en tu ciudad y cuándo, y las revisamos juntos. Una vez al mes hay seguimiento presencial en Ciudad Juárez, y lo que haga falta se ve ahí o en Chihuahua.</p>
+  <p>Durante la recuperación tienes contacto directo por WhatsApp con el consultorio para dudas y cualquier señal de alarma.</p>
+
+  <h3>Tus imágenes y tus datos</h3>
+  <p>Las radiografías y la información que nos envías se usan solo para valorar tu caso y se tratan conforme a nuestro aviso de privacidad.</p>
+""",
 },
 
 ]

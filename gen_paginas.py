@@ -193,7 +193,7 @@ def build(p, paginas):
       <h1>%(h1)s</h1>
       <p class="lead">%(lead)s</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="%(wa)s">Agendar valoración por WhatsApp</a>
+        <a class="btn btn-primary" href="%(wa)s">%(cta)s</a>
         <a class="btn btn-ghost" href="tel:+526144794215">614 479 4215</a>
       </div>
     </div>
@@ -235,7 +235,7 @@ def build(p, paginas):
         "desc": html.escape(p["desc"], quote=True),
         "url": url, "base": BASE, "ld": ld, "nav": NAV,
         "nav_name": p["nav"], "chip": p["chip"], "h1": p["h1"], "lead": p["lead"],
-        "wa": WA, "maps": MAPS, "img": img,
+        "wa": p.get("wa", WA), "cta": p.get("cta_texto", "Agendar valoración por WhatsApp"), "maps": MAPS, "img": img,
         "cuerpo": "\n".join(bloques), "resumen": resumen, "foot": FOOT,
     }
     io.open(p["slug"] + ".html", "w", encoding="utf-8").write(doc)
