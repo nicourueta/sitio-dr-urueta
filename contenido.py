@@ -9,10 +9,10 @@ PAGINAS = [
  "nav": "Osteotomía periacetabular",
  "es_procedimiento": True,
  "resumen_corto": "Reorientar el acetábulo para preservar la cadera en displasia del adulto joven.",
- "title": "Osteotomía periacetabular (PAO) en Chihuahua | Dr. Nicolás Urueta",
- "desc": "Osteotomía periacetabular de Ganz para displasia acetabular sintomática en el adulto joven. Valoración, técnica y recuperación. Dr. Nicolás Urueta, Chihuahua.",
+ "title": "Osteotomía periacetabular (PAO) en México: salvar la cadera sin prótesis | Dr. Nicolás Urueta",
+ "desc": "Osteotomía periacetabular (PAO, técnica de Ganz) para displasia de cadera en adolescentes y adultos jóvenes: cirugía para salvar la cadera sin prótesis. Pacientes de todo México; valoración a distancia. Dr. Nicolás Urueta, Chihuahua.",
  "chip": "Preservación de cadera",
- "h1": "Osteotomía periacetabular en Chihuahua",
+ "h1": "Osteotomía periacetabular: salvar la cadera sin prótesis",
  "lead": "Cuando la cadera duele por una displasia y el cartílago todavía está bien, la osteotomía periacetabular permite reorientar el acetábulo y conservar la articulación propia, en lugar de esperar a necesitar una prótesis.",
  "procedimiento": "Osteotomía periacetabular",
  "como": "Osteotomías controladas alrededor del acetábulo para reorientar el fragmento y mejorar la cobertura de la cabeza femoral, con fijación mediante tornillos y control fluoroscópico intraoperatorio.",
@@ -52,6 +52,10 @@ PAGINAS = [
 
   <div class="callout">
     <p><strong>La clave está en el momento.</strong> Esta cirugía funciona cuando todavía hay cartílago que valga la pena proteger. Cuando la artrosis ya está establecida, reorientar el acetábulo no quita el dolor, y la indicación correcta pasa a ser otra.</p>
+  </div>
+
+  <div class="callout">
+    <p><strong>Pocos cirujanos en México hacen esta cirugía,</strong> y por eso muchos pacientes vienen de otros estados. Si vives fuera de Chihuahua, puedes empezar enviando tus radiografías por WhatsApp para una primera opinión. <a href="/ciudad-juarez-y-foraneos">Así funciona para pacientes de otras ciudades</a>.</p>
   </div>
 
   <h2>A quién va dirigida</h2>
@@ -565,7 +569,7 @@ PAGINAS = [
      "Coméntanos qué aseguradora tienes al agendar, para revisar el convenio y explicarte cómo funciona en tu caso."]),
    ("¿Cuánto cuesta una cirugía de cadera?",
     ["No hay un precio único, y desconfía de quien te dé una cifra sin haberte valorado. El costo depende del procedimiento, del hospital, del implante que requiera tu caso y de si es particular o por aseguradora.",
-     "Después de la valoración se te entrega un presupuesto desglosado, separando honorarios médicos, hospital e implantes, para que sepas exactamente qué cubre cada concepto."]),
+     "Después de la valoración se te entrega un presupuesto desglosado, separando honorarios médicos, hospital e implantes, para que sepas exactamente qué cubre cada concepto. En el caso de la prótesis de cadera, puedes ver <a href=\"/costo-protesis-de-cadera\">qué incluye el costo</a>."]),
    ("¿Me tengo que operar de inmediato?",
     ["Casi nunca. Salvo una fractura o una infección, la cirugía de cadera es programada y hay tiempo para entender la indicación, resolver dudas y organizarte.",
      "Si en tu caso la cirugía se puede diferir o incluso evitar con tratamiento conservador, se te va a decir. Y si el tiempo juega en contra —como cuando hay cartílago que aún se puede preservar— también se te va a decir con claridad."]),
@@ -672,6 +676,212 @@ PAGINAS = [
 
   <h3>Tus imágenes y tus datos</h3>
   <p>Las radiografías y la información que nos envías se usan solo para valorar tu caso y se tratan conforme a nuestro aviso de privacidad.</p>
+""",
+},
+
+
+# ─────────────────────────────────────────────── DOLOR DE CADERA EN EL JOVEN
+{
+ "slug": "dolor-de-cadera-en-jovenes",
+ "nav": "Dolor de cadera en adolescentes y adultos jóvenes",
+ "es_procedimiento": False,
+ "resumen_corto": "Dolor en la ingle al caminar, sentarte o hacer deporte: pinzamiento, displasia y labrum.",
+ "title": "Dolor de cadera en jóvenes: dolor en la ingle, pinzamiento y displasia | Dr. Nicolás Urueta",
+ "desc": "¿Te duele la ingle al caminar, al estar sentado o al hacer deporte y tienes menos de 50 años? Pinzamiento femoroacetabular, displasia y lesión del labrum: cómo se diagnostican y cuándo se puede salvar la cadera. Chihuahua.",
+ "chip": "Preservación de cadera",
+ "h1": "Dolor de cadera en adolescentes y adultos jóvenes",
+ "lead": "Un dolor en la ingle que dura meses no es normal a los 20, 30 o 40 años, y casi nunca es solo un tirón. Muchas veces hay una causa mecánica que se puede corregir, y el tiempo importa: tratarla mientras el cartílago está sano puede evitar una prótesis.",
+ "resumen": [
+   ("Síntoma típico", "Dolor en la ingle al caminar, sentarse mucho tiempo o girar"),
+   ("Causas frecuentes", "Pinzamiento femoroacetabular, displasia, lesión del labrum"),
+   ("Primer estudio", "Radiografía de pelvis bien hecha"),
+   ("Clave", "Actuar mientras el cartílago está sano"),
+ ],
+ "faq": [
+   ("¿Cómo sé si el dolor viene de la cadera y no de la espalda?",
+    ["El dolor que nace dentro de la cadera suele sentirse en la ingle o en la parte de adelante del muslo, a veces en forma de «C» abrazando la cadera. El que viene de la columna lumbar suele ir por la nalga y bajar por detrás del muslo, muchas veces con hormigueo.",
+     "No siempre es tan claro, y a veces conviven los dos. La exploración física dirigida es lo que separa uno de otro, y por eso no se debe decidir nada solo con una resonancia."]),
+   ("Tengo una resonancia que dice «lesión del labrum». ¿Me tengo que operar?",
+    ["No necesariamente. Muchas personas sin dolor tienen cambios en el labrum en la resonancia. Lo que importa es si esa lesión explica tus síntomas y, sobre todo, por qué se lesionó: casi siempre hay una forma de la cadera —pinzamiento o displasia— que la está sobrecargando.",
+     "Reparar el labrum sin corregir la causa suele dar un resultado pobre. Por eso la pregunta correcta no es solo qué está roto, sino por qué se rompió."]),
+   ("¿Sirve la fisioterapia?",
+    ["Sí, en muchos casos es el primer paso: fortalecer la musculatura de la cadera y el tronco, y ajustar la actividad, puede controlar los síntomas. Si después de un tratamiento bien hecho el dolor persiste y hay una causa mecánica clara, entonces se habla de cirugía.",
+     "Lo que no conviene es pasar años de tratamiento en tratamiento sin una radiografía adecuada, porque mientras tanto el cartílago se puede estar dañando."]),
+   ("¿A qué edad es demasiado tarde para salvar la cadera?",
+    ["No hay una edad fija; lo que decide es el estado del cartílago. Con cartílago conservado, la artroscopia o la osteotomía periacetabular pueden preservar la articulación. Cuando la artrosis ya está establecida, la opción que realmente quita el dolor suele ser la prótesis.",
+     "Por eso insistimos en valorar pronto un dolor de ingle que no se quita: la ventana para preservar se cierra con el tiempo."]),
+ ],
+ "cuerpo": """
+  <h2>Señales de que el problema está dentro de la cadera</h2>
+  <ul>
+    <li>Dolor en la <strong>ingle</strong> o en la parte de adelante de la cadera, de semanas o meses de evolución.</li>
+    <li>Molestia al <strong>estar sentado mucho tiempo</strong>, al manejar, o al levantarte de una silla baja.</li>
+    <li>Dolor al <strong>girar</strong>, al cruzar la pierna, al ponerte los calcetines o al entrar y salir del carro.</li>
+    <li>Dolor con el <strong>deporte</strong>: correr, patear, sentadillas profundas, cambios de dirección.</li>
+    <li>Sensación de <strong>chasquido, bloqueo o inestabilidad</strong> dentro de la articulación.</li>
+    <li>Diagnósticos previos de «tirón», «tendinitis» o «contractura» que <strong>no mejoran</strong> con reposo ni con tratamiento.</li>
+  </ul>
+
+  <h2>Las causas más frecuentes</h2>
+  <h3>Pinzamiento femoroacetabular</h3>
+  <p>Una forma del fémur o del acetábulo que hace que los dos huesos choquen al flexionar y girar la cadera. Con los años ese choque desgarra el labrum y daña el cartílago. Es frecuente en personas activas y deportistas. Cuando requiere cirugía, se corrige por <a href="/artroscopia-de-cadera">artroscopia de cadera</a>.</p>
+  <h3>Displasia de cadera</h3>
+  <p>Un acetábulo poco profundo que no cubre bien la cabeza del fémur. La carga se concentra en un borde y el labrum y el cartílago se sobrecargan. Muchas personas llegan a la adolescencia o a la edad adulta sin saber que la tienen. Cuando es sintomática, la cirugía que corrige la causa es la <a href="/osteotomia-periacetabular">osteotomía periacetabular</a>.</p>
+  <h3>Lesión del labrum</h3>
+  <p>El labrum es un anillo de fibrocartílago que sella la articulación. Casi siempre se lesiona como consecuencia de un pinzamiento o de una displasia, y por eso se trata junto con la causa.</p>
+  <h3>Otras causas que hay que distinguir</h3>
+  <p>Dolor que viene de la columna lumbar, de los tendones glúteos en la parte lateral de la cadera, del psoas, de una hernia inguinal o, menos frecuente, de una necrosis de la cabeza femoral. Parte de la valoración es descartarlas.</p>
+
+  <div class="callout">
+    <p><strong>El tiempo cuenta.</strong> Mientras el cartílago está sano, corregir la mecánica de la cadera puede evitar o retrasar muchos años una prótesis. Cuando ya hay artrosis, esa oportunidad se pierde.</p>
+  </div>
+
+  <h2>Cómo se estudia</h2>
+  <ol>
+    <li><strong>Historia clínica y exploración física</strong> con maniobras específicas de cadera.</li>
+    <li><strong>Radiografía de pelvis de frente y proyecciones laterales</strong> bien tomadas; con ellas se miden la cobertura del acetábulo y la forma del fémur.</li>
+    <li><strong>Resonancia magnética</strong>, para ver el labrum y, sobre todo, el estado del cartílago.</li>
+    <li>En casos seleccionados, <strong>tomografía</strong> para medir la orientación del fémur y del acetábulo.</li>
+  </ol>
+
+  <h2>Qué tratamientos hay</h2>
+  <ul>
+    <li><strong>Tratamiento conservador:</strong> fisioterapia dirigida, ajuste de actividad y manejo del dolor. Es el primer paso en muchos casos.</li>
+    <li><strong>Artroscopia de cadera:</strong> corrige el pinzamiento y repara el labrum por incisiones pequeñas.</li>
+    <li><strong>Osteotomía periacetabular:</strong> reorienta el acetábulo en la displasia para salvar la cadera sin prótesis.</li>
+    <li><strong>Prótesis:</strong> cuando la artrosis ya está establecida y el dolor limita la vida diaria.</li>
+  </ul>
+  <p>Si vives fuera de Chihuahua, puedes empezar mandando tus radiografías por WhatsApp. <a href="/ciudad-juarez-y-foraneos">Así funciona para pacientes de otras ciudades</a>.</p>
+""",
+},
+
+# ─────────────────────────────────────────────── PRÓTESIS QUE DUELE
+{
+ "slug": "protesis-de-cadera-que-duele",
+ "nav": "Mi prótesis de cadera duele: segunda opinión",
+ "es_procedimiento": False,
+ "resumen_corto": "Dolor, aflojamiento o luxaciones después de una prótesis: por qué pasa y qué hacer.",
+ "title": "Me duele la prótesis de cadera: causas y segunda opinión | Dr. Nicolás Urueta",
+ "desc": "¿Tu prótesis de cadera duele, se sale de lugar o sientes que se aflojó? Causas, estudios, señales de alarma y cómo pedir una segunda opinión, también a distancia. Cirugía de revisión de cadera en Chihuahua.",
+ "chip": "Segunda opinión",
+ "h1": "Me duele la prótesis de cadera: qué puede estar pasando",
+ "lead": "Una prótesis bien colocada no debería doler. Si la tuya duele, se sale de lugar o dejó de funcionar como antes, hay una causa, y encontrarla antes de decidir cualquier cirugía es lo más importante.",
+ "resumen": [
+   ("Primer paso", "Averiguar la causa, no operar"),
+   ("Descartar siempre", "Infección"),
+   ("Qué traer", "Radiografías actuales y previas, nota de la cirugía"),
+   ("A distancia", "Primera opinión con tus radiografías por WhatsApp"),
+ ],
+ "faq": [
+   ("Mi cirujano me dice que la prótesis está bien, pero me sigue doliendo. ¿Es normal?",
+    ["Las molestias de los primeros meses son esperables. Pero un dolor que no mejora con el tiempo, o uno nuevo en una prótesis que ya no dolía, merece un estudio completo. A veces la causa está fuera de la prótesis —la columna, los tendones glúteos, el psoas— y a veces en la prótesis misma.",
+     "Pedir una segunda opinión en esa situación es razonable, y un buen cirujano no debería tomarlo a mal."]),
+   ("¿Qué necesito para una segunda opinión?",
+    ["Tus radiografías actuales y, si las tienes, las de controles anteriores, para comparar. La nota de la cirugía o el resumen de alta, y si es posible las etiquetas del implante que se colocó. Si ya te hicieron laboratorios o una aspiración, tráelos también.",
+     "Con eso se puede dar una opinión seria. Si faltan estudios, se te dice cuáles y por qué."]),
+   ("¿Toda prótesis que duele se tiene que cambiar?",
+    ["No. Hay dolores que se resuelven sin cirugía, por ejemplo cuando el problema es tendinoso o viene de la columna. Y cuando sí hay una falla de la prótesis, no siempre se cambia todo: a veces solo un componente.",
+     "La decisión depende de la causa, y por eso el estudio va primero."]),
+   ("Vivo fuera de Chihuahua. ¿Puedo pedir la opinión a distancia?",
+    ["Sí. Puedes empezar enviando tus radiografías por WhatsApp para una primera opinión, y si hace falta una valoración completa hay videoconsulta y consultas presenciales en Ciudad Juárez."]),
+ ],
+ "cuerpo": """
+  <h2>Por qué puede doler una prótesis</h2>
+  <h3>Causas en la prótesis</h3>
+  <ul>
+    <li><strong>Aflojamiento</strong> del vástago o del componente acetabular.</li>
+    <li><strong>Infección periprotésica</strong>, que puede aparecer semanas o años después de la cirugía.</li>
+    <li><strong>Inestabilidad o luxación</strong>: la sensación de que la cadera «se sale» o se salió.</li>
+    <li><strong>Desgaste</strong> de las superficies y pérdida de hueso alrededor del implante.</li>
+    <li><strong>Fractura</strong> del hueso alrededor de la prótesis, a veces tras una caída menor.</li>
+  </ul>
+  <h3>Causas fuera de la prótesis</h3>
+  <ul>
+    <li>Dolor que viene de la <strong>columna lumbar</strong>.</li>
+    <li>Inflamación de los <strong>tendones glúteos</strong> o de la bursa en la parte lateral de la cadera.</li>
+    <li>Irritación del <strong>tendón del psoas</strong> en la ingle.</li>
+    <li>Diferencia de longitud de las piernas.</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Reporta de inmediato:</strong> fiebre, salida de líquido o pus por la herida, enrojecimiento, un dolor que aumenta en lugar de disminuir, o la sensación de que la cadera se salió de su lugar. Esas situaciones no esperan a la siguiente cita.</p>
+  </div>
+
+  <h2>Cómo se estudia</h2>
+  <ol>
+    <li><strong>Historia y exploración</strong>: cuándo empezó el dolor, si hubo un periodo sin dolor, si hubo fiebre, caídas o problemas con la herida.</li>
+    <li><strong>Radiografías actuales comparadas con las previas</strong>, para ver si algo se movió o hay pérdida de hueso.</li>
+    <li><strong>Laboratorios de infección</strong> y, cuando hay sospecha, <strong>aspiración de la articulación</strong> con cultivo.</li>
+    <li><strong>Tomografía</strong> en casos seleccionados.</li>
+  </ol>
+  <p>Descartar infección es obligatorio antes de planear cualquier cirugía, porque cambia por completo el tratamiento. Si al final hace falta operar, la cirugía es una <a href="/revision-de-protesis">revisión de prótesis de cadera</a>.</p>
+
+  <h2>Segunda opinión, también a distancia</h2>
+  <p>Si ya te propusieron una cirugía de revisión o te dijeron que «todo está bien» y sigues con dolor, puedes pedir una segunda opinión. Si vives fuera de Chihuahua, empieza enviando tus radiografías por WhatsApp. <a href="/ciudad-juarez-y-foraneos">Así funciona para pacientes de otras ciudades</a>.</p>
+""",
+},
+
+# ─────────────────────────────────────────────── COSTO PRÓTESIS
+{
+ "slug": "costo-protesis-de-cadera",
+ "nav": "Cuánto cuesta una prótesis de cadera",
+ "es_procedimiento": False,
+ "resumen_corto": "Qué incluye el costo total, de qué depende y cómo funciona con aseguradora.",
+ "title": "¿Cuánto cuesta una prótesis de cadera en Chihuahua? Qué incluye | Dr. Nicolás Urueta",
+ "desc": "Qué incluye el costo de una prótesis total de cadera en Chihuahua: hospital, implante, honorarios, anestesia y rehabilitación. De qué depende el precio, particular o con seguro de gastos médicos mayores, y cómo pedir tu cotización.",
+ "chip": "Costos",
+ "h1": "¿Cuánto cuesta una prótesis de cadera en Chihuahua?",
+ "lead": "Es de las primeras preguntas y es muy válida. No hay un precio único, pero sí se puede explicar con claridad qué incluye, de qué depende y cómo obtener una cotización real para tu caso.",
+ "cta_texto": "Pedir mi cotización por WhatsApp",
+ "wa": "https://wa.me/526142157019?text=Hola%2C%20me%20gustar%C3%ADa%20una%20cotizaci%C3%B3n%20para%20pr%C3%B3tesis%20de%20cadera",
+ "resumen": [
+   ("Incluye", "Hospital, implante, honorarios médicos y anestesia"),
+   ("Hospitalización", "Habitualmente una noche"),
+   ("Con seguro", "Trabajamos con todas las aseguradoras"),
+   ("Cotización", "Desglosada, después de valorar tu caso"),
+ ],
+ "faq": [
+   ("¿Por qué no me dan un precio por teléfono?",
+    ["Porque el costo depende de cosas que solo se saben después de valorarte: qué tipo de prótesis requiere tu cadera, el hospital, tus otras enfermedades y si es particular o por aseguradora. Una cifra dada sin valorar suele cambiar después, y eso no le sirve a nadie.",
+     "Lo que sí hacemos es entregarte una cotización desglosada en cuanto tengamos la información necesaria, para que sepas exactamente qué cubre cada concepto."]),
+   ("¿Mi seguro de gastos médicos mayores la cubre?",
+    ["En la mayoría de las pólizas sí, sujeto a deducible, coaseguro, periodos de espera y las condiciones de tu contrato. Trabajamos con todas las aseguradoras y nos ajustamos a sus tabuladores.",
+     "Te apoyamos con los informes médicos y el trámite de autorización antes de fijar la fecha de la cirugía."]),
+   ("¿La prótesis más cara es la mejor?",
+    ["No necesariamente. Hay implantes con muy buenos resultados a largo plazo en distintos rangos de precio. Lo importante es que el implante sea el adecuado para tu cadera y que tenga respaldo en registros internacionales de artroplastia.",
+     "En la valoración se te explica qué implante se propone y por qué."]),
+   ("¿Hay costos que no vienen en la cotización?",
+    ["Los estudios previos, las consultas de control y la rehabilitación pueden venir incluidos o cotizarse aparte, según el caso. Se te dice de antemano qué está incluido y qué no, para que no haya sorpresas."]),
+ ],
+ "cuerpo": """
+  <h2>Qué incluye el costo total</h2>
+  <ul>
+    <li><strong>Hospital:</strong> quirófano, habitación, material de curación, medicamentos durante la estancia. La hospitalización habitual es de una noche.</li>
+    <li><strong>Implante:</strong> la prótesis en sí —vástago, cabeza, cotilo y su inserto— y el instrumental que la acompaña.</li>
+    <li><strong>Honorarios médicos:</strong> cirujano, médico ayudante y anestesiólogo.</li>
+  </ul>
+  <p>Además hay que considerar los <strong>estudios previos</strong> (laboratorios, radiografías y valoración preanestésica), las <strong>consultas de control</strong> y la <strong>rehabilitación</strong>. Según el caso pueden venir incluidos o cotizarse aparte; en tu cotización se especifica.</p>
+
+  <h2>De qué depende el precio</h2>
+  <ul>
+    <li><strong>El tipo de prótesis</strong> que requiere tu cadera y el par de fricción (metal, cerámica o polietileno).</li>
+    <li><strong>El hospital</strong> donde se realiza la cirugía.</li>
+    <li><strong>La complejidad del caso:</strong> una cadera con displasia, deformidad o cirugías previas puede requerir implantes o técnicas especiales.</li>
+    <li><strong>Tu estado de salud:</strong> algunas enfermedades requieren estudios o cuidados adicionales.</li>
+    <li><strong>Particular o aseguradora:</strong> con seguro, el costo para ti depende de tu deducible y coaseguro.</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Desconfía de un precio sin valoración.</strong> Una cifra dada sin ver tus radiografías puede dejar fuera el implante que realmente necesitas o conceptos que después aparecen en la cuenta. Nuestra cotización es desglosada y se entrega por escrito.</p>
+  </div>
+
+  <h2>Cómo pedir tu cotización</h2>
+  <ol>
+    <li>Envía por WhatsApp tu <strong>radiografía de pelvis</strong> y, si la tienes, la de la cadera que duele.</li>
+    <li>Dinos si será <strong>particular o con aseguradora</strong> (y cuál).</li>
+    <li>Después de la valoración recibes tu <strong>cotización desglosada</strong>: hospital, implante y honorarios por separado.</li>
+  </ol>
+  <p>Más sobre la cirugía en <a href="/protesis-de-cadera">Prótesis total de cadera</a>. Si vives fuera de Chihuahua, <a href="/ciudad-juarez-y-foraneos">así funciona para pacientes de otras ciudades</a>.</p>
 """,
 },
 
