@@ -485,7 +485,9 @@ PAGINAS = [
  "resumen": [
    ("Especialidad", "Ortopedia y Traumatología"),
    ("Subespecialidad", "Cirugía de cadera"),
+   ("Título", "Médico Cirujano, Universidad Autónoma de Chihuahua"),
    ("Céd. Profesional", "7298201"),
+   ("Especialidad (título)", "Ortopedia y Traumatología, Universidad de Monterrey"),
    ("Céd. Especialidad", "10598988"),
    ("Consultorio", "Christus Muguerza Del Parque, Chihuahua"),
    ("Google", "5.0 ★"),
